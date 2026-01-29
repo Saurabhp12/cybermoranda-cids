@@ -1,0 +1,1 @@
+hyper::proto::h2::server::H2Stream<impl Future<Output = Result<Response<Body>, Infallible>>, Body>

@@ -1,0 +1,9 @@
+{
+  "delays": {
+    "low": 0,
+    "medium": 500,
+    "high": 3000
+  },
+  "containment_threshold": 70,
+  "app_mode": "STRICT"
+}
