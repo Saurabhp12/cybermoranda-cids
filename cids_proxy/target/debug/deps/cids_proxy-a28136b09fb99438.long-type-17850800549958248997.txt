@@ -1,4 +1,0 @@
-hyper::common::exec::Exec: hyper::common::exec::ConnStreamExec<impl Future<Output = Result<Response<Body>, Infallible>>, Body>
-server::server::new_svc::NewSvcTask<AddrStream, {async block@src/main.rs:104:9: 104:19}, hyper::service::util::ServiceFn<{closure@src/main.rs:105:44: 105:54}, Body>, hyper::common::exec::Exec, server::server::NoopWatcher>
-hyper::common::exec::NewSvcExec<AddrStream, {async block@src/main.rs:104:9: 104:19}, hyper::service::util::ServiceFn<{closure@src/main.rs:105:44: 105:54}, Body>, hyper::common::exec::Exec, server::server::NoopWatcher>
-Server<AddrIncoming, hyper::service::make::MakeServiceFn<{closure@src/main.rs:102:36: 102:44}>>
