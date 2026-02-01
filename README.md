@@ -1,32 +1,94 @@
 # CyberMoranda CIDS
 
-CyberMoranda CIDS (Cognitive Intrusion Defense System) is a behavior-based,
-ethical security prototype designed for modern web applications.
+**CyberMoranda CIDS (Cognitive Intrusion Defense System)** is a behavior-based, ethical security prototype designed for modern web applications.  
+It focuses on understanding **intent and behavior**, rather than relying only on static rules or instant blocking.
+
+---
 
 ## Problem
-Traditional firewalls block attackers instantly.
-This often creates false positives and teaches attackers how to bypass defenses.
+
+Traditional firewalls and intrusion prevention systems often:
+- Block traffic instantly
+- Generate false positives
+- Reveal defensive patterns to attackers
+- Punish legitimate users for abnormal but valid behavior
+
+This reactive approach creates noise, operational fatigue, and weak long-term defense.
+
+---
 
 ## Solution
-CyberMoranda CIDS observes behavior instead of reacting aggressively.
-It assigns a risk score and applies ethical containment.
+
+CyberMoranda CIDS follows an **observe → understand → contain** philosophy.
+
+Instead of aggressive blocking, the system:
+- Observes user behavior
+- Assigns a dynamic risk score
+- Applies **ethical, non-punitive containment**
+- Uses deception to safely study attacker intent
+
+The goal is to **waste attacker time**, protect real assets, and avoid harming legitimate users.
+
+---
 
 ## Key Features
-- Behavioral risk analysis
-- Explainable security decisions
-- Non-punitive containment
-- Decoy-based observation
-- Professional SOC-style interface
+
+- **Behavioral Risk Analysis**  
+  Detects intent using request patterns instead of signatures.
+
+- **Explainable Security Decisions**  
+  Every response is traceable and understandable (no black-box blocking).
+
+- **Non-Punitive Containment**  
+  Uses tarpitting and deception instead of immediate bans.
+
+- **Decoy-Based Observation**  
+  Honeypot paths (e.g. `/admin`) help identify malicious intent safely.
+
+- **Professional SOC-Style Interface**  
+  Clean, enterprise-grade dashboard for real-time visibility.
+
+---
 
 ## Azure AI (Planned Architecture)
-Azure AI is used as a post-analysis layer to explain security events in human language.
-Live integration is intentionally not enabled in this MVP.
+
+Azure AI is planned as a **post-analysis explanation layer**.
+
+- Converts security events into human-readable summaries
+- Helps explain *why* a session was classified as hostile
+- **Live AI decision-making is intentionally disabled** in this MVP to avoid over-automation and false trust
+
+---
+
+## Demo
+
+🎥 **Demo Video**  
+A 60-second walkthrough demonstrating:
+- Behavioral risk scoring  
+- Ethical containment  
+- Deception-based defense  
+- Explainable security decisions  
+
+---
 
 ## Disclaimer
-This project is for defensive research and educational purposes only.
-=======
-# cybermoranda-cids
-CyberMoranda CIDS (Cognitive Intrusion Defense System) is a behavior-based, ethical intrusion detection prototype that analyzes intent instead of signatures, applies non-punitive containment, and generates explainable security decisions. Built as an MVP for learning, research, and Imagine Cup.
->>>>>>> 57ec100ecd57e8350e53004e6d88614445b1a378
-# Demo Video:
-A 60-second walkthrough demonstrating ethical behavioral containment and explainable security decisions.
+
+This project is built **strictly for defensive security research and education**.
+
+- No offensive use
+- No exploitation tools
+- No real-world attack facilitation
+
+---
+
+## Project Context
+
+CyberMoranda CIDS is an MVP developed for:
+- Learning and research
+- Ethical cybersecurity experimentation
+- Innovation challenges (e.g. Imagine Cup)
+
+---
+
+**CyberMoranda Research**  
+*Cognitive Intrusion Defense System*
