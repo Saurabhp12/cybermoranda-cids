@@ -1,6 +1,6 @@
 # CyberMoranda CIDS
 
-**CyberMoranda CIDS (Cognitive Intrusion Defense System)** is a behavior-based, ethical security prototype designed for modern web applications.  
+**CyberMoranda CIDS (Cognitive Intrusion Detection System)** is a behavior-based, ethical security prototype designed for modern web applications.  
 It focuses on understanding **intent and behavior**, rather than relying only on static rules or instant blocking.
 
 ---
@@ -91,4 +91,4 @@ CyberMoranda CIDS is an MVP developed for:
 ---
 
 **CyberMoranda Research**  
-*Cognitive Intrusion Defense System*
+*Cognitive Intrusion Detection System*
