@@ -1,6 +1,6 @@
 # CyberMoranda CIDS
 
-### Cognitive Intrusion Defense System
+### Cognitive Intrusion Detection System
 
 > **Think Before You Act.**
 
