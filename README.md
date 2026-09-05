@@ -918,6 +918,6 @@ Do not deploy experimental components against systems you do not own or have exp
 
 CyberMoranda Research
 
-Cognitive Intrusion Defense System
+Cognitive Intrusion Detection System
 
 > Think Before You Act.
